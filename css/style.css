@@ -1,0 +1,51 @@
+ody {
+    font-family: Arial, sans-serif; /* Fonte mais legível */
+    margin: 0; /* Remove margens padrão do navegador */
+    padding: 0;
+    background-color: #f9f9f9; /* Um fundo cinza bem claro */
+    color: #333; /* Cor do texto principal */
+}
+
+/* Estilizando o Cabeçalho */
+header {
+    background-color: #4CAF50; /* Um verde bonito */
+    color: white; /* Cor do texto no cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilizando o Menu de Navegação */
+nav ul {
+    list-style: none; /* Remove as bolinhas da lista */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Coloca os itens do menu lado a lado */
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: white; /* Cor dos links do menu */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold;
+}
+
+/* Estilizando o Conteúdo Principal */
+main {
+    padding: 20px; /* Adiciona um respiro nas laterais do conteúdo */
+    max-width: 900px; /* Limita a largura para melhor leitura em telas grandes */
+    margin: 0 auto; /* Centraliza o conteúdo principal na página */
+}
+
+/* Estilizando o link "Faça uma doação" como um botão */
+.botao-doacao {
+    display: inline-block;
+    background-color: #FF9800; /* Laranja */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px; /* Bordas arredondadas */
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
